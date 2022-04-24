@@ -1,0 +1,38 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-to-right {
+    float: right;
+}
+
+.dropdown-to-left {
+    float: left;
+}
+
+.dropdown-itens {
+    display: none;
+    min-width: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-button {
+    border: none;
+    background-color: #11111100;
+    margin: 0;
+}
+
+.open {
+    display: block;
+    background-color: hsla(225, 14%, 20%, 1);
+}
+
+.itens-to-right {
+    right: 0;
+}
+
+.itens-to-left {
+    left: 0;
+}
